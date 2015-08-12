@@ -64,10 +64,19 @@ body {
 section {
      min-height: 700px;
      text-align: center;
+     padding:0 10%;
+}
+
+.first {
+    padding:0;
 }
 
 input[type="text"] {
     width: 75px;
+}
+
+input[type="text"].utmCode {
+    width: 200px;
 }
 
 hr {
@@ -75,6 +84,7 @@ width: 60%;
 height: 1px;
 margin-left: auto;
 margin-right: auto;
+background:black;
 }
 
 button { 
