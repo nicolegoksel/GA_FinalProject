@@ -91,7 +91,7 @@ function findCPM() {
 	findCost = parseInt(findCost);
 	findImpression = parseInt(findImpression);
 
-	var result = findCost * findImpression / 1000 ;
+	var result = findCost / findImpression * 1000 ;
 
 	//display results
 	console.log(result);
